@@ -1,0 +1,45 @@
+html, body {
+	margin: 0;
+	height: 80%;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	padding-bottom: 25px;
+	flex-direction: column;
+}
+
+img {
+	width: 50%;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 174, 255, 0.329);
+}
+.screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 87, 128);
+	size-adjust: 100%;
+}
+.button {
+	background-color: black; 
+	border: white;
+	color: whitesmoke;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration:double;
+	display: inline-block;
+	font-size: 30px;
+  }
